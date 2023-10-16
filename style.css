@@ -1,0 +1,96 @@
+*{
+    font-family: 'gilroy';
+}
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+
+#header h1 {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 40px;
+}
+
+#header-left{
+    display: flex;
+}
+
+#header-right {
+    text-align: right;
+}
+
+#header-right button {
+    background-color: #1a1717;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#search-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#search-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+#search-word {
+    background-color: rgb(230, 214, 226);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+#search-button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+#def-container {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#definition {
+    text-align: center;
+    margin: 0;
+}
